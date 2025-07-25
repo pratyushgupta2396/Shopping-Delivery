@@ -21,7 +21,7 @@ public class WareHouse {
     @OneToOne
     Location location;
     @OneToMany
-    List<WareHouseItem> warehouseitems;
+    List<WareHouseItem> wareHouseItems;
     LocalDateTime createdAt;
     LocalDateTime updatedAt;
 }
