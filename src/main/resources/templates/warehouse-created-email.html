@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New Warehouse Created</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+        .container { background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); max-width: 600px; margin: 40px auto; }
+        h2 { color: #2d7ff9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+        th, td { text-align: left; padding: 8px 12px; }
+        th { background: #f0f4fa; }
+        tr:nth-child(even) { background: #f6f8fb; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>New Warehouse Created</h2>
+    <p>Dear Admin,</p>
+    <p>A new warehouse has been registered in the application. Below are the details:</p>
+    <table>
+        <tr>
+            <th>Warehouse Name</th>
+            <td>[[${wareHouseName}]]</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>[[${address}]]</td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>[[${city}]]</td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td>[[${state}]]</td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>[[${country}]]</td>
+        </tr>
+        <tr>
+            <th>Pin Code</th>
+            <td>[[${pinCode}]]</td>
+        </tr>
+        <tr>
+            <th>Created At</th>
+            <td>[[${createdAt}]]</td>
+        </tr>
+    </table>
+    <p style="margin-top:28px;">Regards,<br/>Your Application Team</p>
+</div>
+</body>
+</html>
