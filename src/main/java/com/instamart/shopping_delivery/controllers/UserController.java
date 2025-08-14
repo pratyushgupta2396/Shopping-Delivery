@@ -3,7 +3,7 @@ package com.instamart.shopping_delivery.controllers;
 import com.instamart.shopping_delivery.exceptions.InvalidOperationException;
 import com.instamart.shopping_delivery.exceptions.UserNotExistException;
 import com.instamart.shopping_delivery.models.AppUser;
-import com.instamart.shopping_delivery.service.AppUserService;
+import com.instamart.shopping_delivery.service.AppUserService; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
